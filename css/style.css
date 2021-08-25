@@ -6,6 +6,11 @@
     font-family: 'Noto Sans TC', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 header h1 {
     font-family: 'Rampart One', cursive;
     font-size: 2.5rem;
@@ -14,7 +19,7 @@ header h1 {
     text-align: center;
 }
 
-#nav-bg {
+.nav-bg {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     margin-left: 1rem;
@@ -23,20 +28,55 @@ header h1 {
     grid-template-columns: 60% 40%;
 }
 
-#nav-bg p {
+.nav-bg p {
     align-self: center;
     justify-self: right;
     font-weight: 500;
     font-style: italic;
 }
 
-#nav-bg ul {
+.nav-bg ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
 }
 
-#nav-bg ul li a {
-    text-decoration: none;
-    color: black;
+
+.title {
+    font-weight: 500;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#cat-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.cat-card {
+    background-image: url("/assets/grid-graphic-design-pattern-line-56cacb5835b7ccd7f6454f92b1d95af0.png");
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44vh;
+    width: 18vw;
+    justify-self: center;
+}
+
+.cat-title {
+    background-color: white;
+    border-radius: 4rem;
+    /* border: 0.3px solid black; */
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+    width: min-content;
+    padding: 2rem;
 }
