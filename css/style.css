@@ -80,3 +80,83 @@ header h1 {
     width: min-content;
     padding: 2rem;
 }
+
+/* PRODUCT LIST STYLING */
+
+#breadcrumbs {
+    margin-top: 1rem;
+}
+
+#product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem; 
+}
+#prod-pic1 {
+    background-image: url("/assets/black-shirt.webp");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    height: 44vh;
+    width: 18vw;
+}
+
+#prod-pic2 {
+    background-image: url("/assets/grey-shirt.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom; 
+    display: flex;
+    justify-content: center;
+    height: 44vh;
+    width: 18vw;
+}
+
+#prod-pic3 {
+    background-image: url("/assets/track-black-shirt.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44vh;
+    width: 18vw;
+    justify-self: center;
+}
+
+#prod-pic4 {
+    background-image: url("/assets/black-jersey.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom; 
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44vh;
+    width: 18vw;
+    justify-self: center;
+}
+
+#sold-out {
+    justify-self: center;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+#off-tag {
+    background-color: red;
+    font-size: 1rem;
+    color: white;
+    padding: 1rem;
+    border-radius: 3rem;
+    width: min-content;
+    align-self: flex-end;
+}
