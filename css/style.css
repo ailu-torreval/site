@@ -95,7 +95,9 @@ header h1 {
     margin-left: 2rem;
     margin-right: 2rem; 
 }
-#prod-pic1 {
+
+
+#card-pic1 {
     background-image: url("/assets/black-shirt.webp");
     background-size: 120%;
     background-repeat: no-repeat;
@@ -106,7 +108,9 @@ header h1 {
     width: 18vw;
 }
 
-#prod-pic2 {
+
+
+#card-pic2 {
     background-image: url("/assets/grey-shirt.webp");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -117,7 +121,7 @@ header h1 {
     width: 18vw;
 }
 
-#prod-pic3 {
+#card-pic3 {
     background-image: url("/assets/track-black-shirt.webp");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -130,7 +134,7 @@ header h1 {
     justify-self: center;
 }
 
-#prod-pic4 {
+#card-pic4 {
     background-image: url("/assets/black-jersey.webp");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -159,4 +163,98 @@ header h1 {
     border-radius: 3rem;
     width: min-content;
     align-self: flex-end;
+}
+
+#card-title1, #card-title2, #card-title3, #card-title4 {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.brand-name {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+.price {
+    margin-top: 0;
+    font-weight: 500;
+}
+
+#old-price {
+    text-decoration: line-through;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#off {
+    color: red;
+    margin-top: 0;
+    font-weight: 500;
+}
+
+#card-title1:hover {
+    border-bottom: 1px solid black;
+ }
+
+ #card-title2:hover {
+    border-bottom: 1px solid black;
+ }
+ #card-title3:hover {
+    border-bottom: 1px solid black;
+ }
+
+#card-title4:hover {
+   border-bottom: 1px solid black;
+}
+
+/* PRODUCT PAGE */
+#prod {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 2rem;
+    margin-right: 0;
+}
+#prod-pic {
+    background-image: url("/assets/black-shirt.webp");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    width: 40vw;
+}
+
+#prod-info h1 {
+    font-size: 2rem;
+}
+
+#prod-info {
+    margin-left: 2rem;
+}
+
+#prod-price {
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+
+#prod-color {
+    margin-top: 3rem;
+}
+
+#inv-nr {
+    color: gray;
+    font-style: italic;
+}
+
+#size:hover {
+    text-decoration: underline;
+}
+
+button {
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    border: black;
 }
