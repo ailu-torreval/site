@@ -258,3 +258,8 @@ button {
     border-radius: 1rem;
     border: black;
 }
+
+#specs {
+    font-size: 0.8rem;
+    margin-right: 0;
+}
