@@ -96,57 +96,18 @@ header h1 {
     margin-right: 2rem; 
 }
 
-
-#card-pic1 {
-    background-image: url("/assets/black-shirt.webp");
-    background-size: 120%;
-    background-repeat: no-repeat;
-    background-position: center; 
-    display: flex;
-    justify-content: center;
-    height: 44vh;
-    width: 18vw;
+.prod-pic {
+    max-width: 100%;
 }
 
-
-
-#card-pic2 {
-    background-image: url("/assets/grey-shirt.webp");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: bottom; 
-    display: flex;
-    justify-content: center;
-    height: 44vh;
-    width: 18vw;
+.sold-out img {
+    opacity: 0.5;
 }
 
-#card-pic3 {
-    background-image: url("/assets/track-black-shirt.webp");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: bottom; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 44vh;
-    width: 18vw;
-    justify-self: center;
-}
-
-#card-pic4 {
-    background-image: url("/assets/black-jersey.webp");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: bottom; 
-    opacity: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 44vh;
-    width: 18vw;
-    justify-self: center;
-}
+/* .prod-card-sold-out ::before {
+    content: "Sold Out";
+} 
+if i turn it on, it puts sold out in every line */
 
 #sold-out {
     justify-self: center;
