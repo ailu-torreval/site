@@ -89,14 +89,15 @@ header h1 {
 
 #product-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 2rem;
     margin-left: 2rem;
     margin-right: 2rem; 
 }
 
-.prod-pic {
+img {
+    display: block;
     max-width: 100%;
 }
 
@@ -137,12 +138,12 @@ if i turn it on, it puts sold out in every line */
     font-size: 0.9rem;
 }
 
-.price {
+#price {
     margin-top: 0;
     font-weight: 500;
 }
 
-#old-price {
+.old-price {
     text-decoration: line-through;
     margin-top: 0;
     margin-bottom: 0;
