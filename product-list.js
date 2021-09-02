@@ -1,4 +1,6 @@
-const url = "https://kea-alt-del.dk/t7/api/products";
+const urlParams = new URLSearchParams(window.location.search);
+const cat = urlParams.get("categories");
+url = "https://kea-alt-del.dk/t7/api/products?category=" + cat;
 
 fetch(url)
 .then(function(res){
