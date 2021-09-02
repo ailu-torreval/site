@@ -1,108 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Rampart+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Rampart+One&display=swap");
 
 * {
-    margin: 0.3rem;
-    font-family: 'Noto Sans TC', sans-serif;
+  margin: 0.3rem;
+  font-family: "Noto Sans TC", sans-serif;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 header h1 {
-    font-family: 'Rampart One', cursive;
-    font-size: 2.5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    text-align: center;
+  font-family: "Rampart One", cursive;
+  font-size: 2.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
 }
 
 .nav-bg {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    display: grid;
-    grid-template-columns: 60% 40%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: grid;
+  grid-template-columns: 60% 40%;
 }
 
 .nav-bg p {
-    align-self: center;
-    justify-self: right;
-    font-weight: 500;
-    font-style: italic;
+  align-self: center;
+  justify-self: right;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .nav-bg ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
 }
 
-
 .title {
-    font-weight: 500;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+  font-weight: 500;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 #cat-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 2rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
 }
 
 .cat-card {
-    background-image: url("/assets/grid-graphic-design-pattern-line-56cacb5835b7ccd7f6454f92b1d95af0.png");
-    background-size: 130%;
-    background-repeat: no-repeat;
-    background-position: center; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 44vh;
-    width: 18vw;
-    justify-self: center;
+  background-image: url("/assets/grid-graphic-design-pattern-line-56cacb5835b7ccd7f6454f92b1d95af0.png");
+  background-size: 130%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44vh;
+  width: 18vw;
+  justify-self: center;
 }
 
 .cat-title {
-    background-color: white;
-    border-radius: 4rem;
-    /* border: 0.3px solid black; */
-    font-size: 1.4rem;
-    font-weight: 400;
-    text-align: center;
-    width: min-content;
-    padding: 2rem;
+  background-color: white;
+  border-radius: 4rem;
+  /* border: 0.3px solid black; */
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+  width: min-content;
+  padding: 2rem;
 }
 
 /* PRODUCT LIST STYLING */
 
 #breadcrumbs {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 #product-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 img {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 .sold-out img {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 /* .prod-card-sold-out ::before {
@@ -111,117 +110,120 @@ img {
 if i turn it on, it puts sold out in every line */
 
 #sold-out {
-    justify-self: center;
-    background-color: white;
-    padding: 1rem;
-    border-radius: 2rem;
+  justify-self: center;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 2rem;
 }
 
 #off-tag {
-    background-color: red;
-    font-size: 1rem;
-    color: white;
-    padding: 1rem;
-    border-radius: 3rem;
-    width: min-content;
-    align-self: flex-end;
+  background-color: red;
+  font-size: 1rem;
+  color: white;
+  padding: 1rem;
+  border-radius: 3rem;
+  width: min-content;
+  align-self: flex-end;
 }
 
-#card-title1, #card-title2, #card-title3, #card-title4 {
-    font-weight: 500;
-    margin-bottom: 0;
+#card-title1,
+#card-title2,
+#card-title3,
+#card-title4 {
+  font-weight: 500;
+  margin-bottom: 0;
 }
 
 .brand-name {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 0.9rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.9rem;
 }
 
 #price {
-    margin-top: 0;
-    font-weight: 500;
+  margin-top: 0;
+  font-weight: 500;
 }
 
 .old-price {
-    text-decoration: line-through;
-    margin-top: 0;
-    margin-bottom: 0;
+  text-decoration: line-through;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #off {
-    color: red;
-    margin-top: 0;
-    font-weight: 500;
+  color: red;
+  margin-top: 0;
+  font-weight: 500;
 }
 
 #card-title1:hover {
-    border-bottom: 1px solid black;
- }
+  border-bottom: 1px solid black;
+}
 
- #card-title2:hover {
-    border-bottom: 1px solid black;
- }
- #card-title3:hover {
-    border-bottom: 1px solid black;
- }
+#card-title2:hover {
+  border-bottom: 1px solid black;
+}
+#card-title3:hover {
+  border-bottom: 1px solid black;
+}
 
 #card-title4:hover {
-   border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 /* PRODUCT PAGE */
 #prod {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin-top: 2rem;
-    margin-right: 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 2rem;
+  margin-right: 0;
 }
 #prod-pic {
-    background-image: url("/assets/black-shirt.webp");
-    background-size: 80%;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 70vh;
-    width: 40vw;
+  background-image: url("/assets/black-shirt.webp");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+  width: 40vw;
 }
 
 #prod-info h1 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 #prod-info {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
 
 #prod-price {
-    margin-top: 0;
-    font-size: 1.3rem;
+  margin-top: 0;
+  font-size: 1.3rem;
 }
 
 #prod-color {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 #inv-nr {
-    color: gray;
-    font-style: italic;
+  color: gray;
+  font-style: italic;
 }
 
 #size:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 button {
-    font-size: 2rem;
-    padding: 1rem;
-    background-color: black;
-    color: white;
-    border-radius: 1rem;
-    border: black;
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+  border: black;
 }
 
 #specs {
-    font-size: 0.8rem;
-    margin-right: 0;
+  font-size: 0.8rem;
+  margin-right: 0;
 }
