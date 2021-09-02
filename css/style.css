@@ -101,14 +101,50 @@ img {
 }
 
 .sold-out img {
-  opacity: 0.5;
+  opacity: 0.3;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.prod-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 3px 5px lightgrey;
+}
+
+.container {
+  position: relative;
+}
+
+.sold-out-tag {
+  background-color: darkslategrey;
+  border-radius: 4rem;
+  color: white;
+  width: max-content;
+  padding: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.off-tag {
+  background-color: red;
+  border-radius: 4rem;
+  color: white;
+  width: min-content;
+  padding: 1rem;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
 }
 
 /* .prod-card-sold-out ::before {
     content: "Sold Out";
 } 
 if i turn it on, it puts sold out in every line */
-
+/* 
 #sold-out {
   justify-self: center;
   background-color: white;
@@ -132,7 +168,7 @@ if i turn it on, it puts sold out in every line */
 #card-title4 {
   font-weight: 500;
   margin-bottom: 0;
-}
+} */
 
 .brand-name {
   margin-top: 0;
@@ -140,7 +176,7 @@ if i turn it on, it puts sold out in every line */
   font-size: 0.9rem;
 }
 
-#price {
+.price {
   margin-top: 0;
   font-weight: 500;
 }
@@ -151,13 +187,13 @@ if i turn it on, it puts sold out in every line */
   margin-bottom: 0;
 }
 
-#off {
+.off {
   color: red;
   margin-top: 0;
   font-weight: 500;
 }
 
-#card-title1:hover {
+/* #card-title1:hover {
   border-bottom: 1px solid black;
 }
 
@@ -170,7 +206,7 @@ if i turn it on, it puts sold out in every line */
 
 #card-title4:hover {
   border-bottom: 1px solid black;
-}
+} */
 
 /* PRODUCT PAGE */
 #prod {
