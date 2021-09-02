@@ -2,6 +2,8 @@ const urlParams = new URLSearchParams(window.location.search);
 const cat = urlParams.get("categories");
 url = "https://kea-alt-del.dk/t7/api/products?category=" + cat;
 
+document.querySelector("#prod-list-title").textContent = cat;
+
 fetch(url)
   .then(function (res) {
     return res.json();
@@ -31,6 +33,10 @@ function showProductCard(prod) {
 
   if (prod.soldout) {
     clone.querySelector(".prod-card").classList.add("sold-out");
+    clone.querySelector(".brand-name").classList.add("out-of-stock");
+    clone.querySelector(".price").classList.add("out-of-stock");
+    clone.querySelector(".card-title").classList.add("out-of-stock");
+    clone.querySelector(".off").classList.add("out-of-stock");
   } else {
     clone.querySelector(".sold-out-tag").remove();
   }

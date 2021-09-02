@@ -45,6 +45,7 @@ header h1 {
   font-weight: 500;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  text-transform: uppercase;
 }
 
 #cat-grid {
@@ -140,73 +141,26 @@ img {
   right: 16px;
 }
 
+.price {
+  font-weight: 500;
+}
+
+.old-price {
+  font-weight: 400;
+  font-size: 0.9rem;
+  text-decoration: line-through;
+}
+
+.off {
+  color: red;
+  font-weight: 500;
+}
+
 /* .prod-card-sold-out ::before {
     content: "Sold Out";
 } 
 if i turn it on, it puts sold out in every line */
 /* 
-#sold-out {
-  justify-self: center;
-  background-color: white;
-  padding: 1rem;
-  border-radius: 2rem;
-}
-
-#off-tag {
-  background-color: red;
-  font-size: 1rem;
-  color: white;
-  padding: 1rem;
-  border-radius: 3rem;
-  width: min-content;
-  align-self: flex-end;
-}
-
-#card-title1,
-#card-title2,
-#card-title3,
-#card-title4 {
-  font-weight: 500;
-  margin-bottom: 0;
-} */
-
-.brand-name {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 0.9rem;
-}
-
-.price {
-  margin-top: 0;
-  font-weight: 500;
-}
-
-.old-price {
-  text-decoration: line-through;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.off {
-  color: red;
-  margin-top: 0;
-  font-weight: 500;
-}
-
-/* #card-title1:hover {
-  border-bottom: 1px solid black;
-}
-
-#card-title2:hover {
-  border-bottom: 1px solid black;
-}
-#card-title3:hover {
-  border-bottom: 1px solid black;
-}
-
-#card-title4:hover {
-  border-bottom: 1px solid black;
-} */
 
 /* PRODUCT PAGE */
 #prod {
@@ -234,32 +188,104 @@ if i turn it on, it puts sold out in every line */
 
 #prod-price {
   margin-top: 0;
+  margin-left: 0;
   font-size: 1.3rem;
 }
 
+.new-price {
+  margin-top: 0;
+  font-size: 1.3rem;
+  color: red;
+}
+
+.old-prod-price {
+  text-decoration: line-through;
+  font-size: 1.1rem;
+  color: darkslategrey;
+}
+
+.discount-tag {
+  background-color: red;
+  color: white;
+  font-size: 0.9rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  width: max-content;
+}
+
+#brand {
+  font-weight: 300;
+}
+
+#product-name {
+  margin-bottom: 0;
+}
+
 #prod-color {
-  margin-top: 3rem;
+  margin-top: 1.7rem;
 }
 
 #inv-nr {
   color: gray;
   font-style: italic;
+  font-size: 0.9rem;
 }
 
 #size:hover {
   text-decoration: underline;
 }
 
-button {
-  font-size: 2rem;
+#sizes {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+#size-title {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+#price-flex {
+  display: flex;
+}
+
+.sold-out-txt {
+  font-style: italic;
+  margin-bottom: 0.6rem;
+}
+
+.buy {
+  font-size: 1.3rem;
   padding: 1rem;
-  background-color: black;
-  color: white;
+  background-color: #d7f20c;
+  color: darkslategrey;
   border-radius: 1rem;
-  border: black;
+  border: darkslategrey;
+  box-shadow: 0px 3px 5px lightgrey;
+  margin-bottom: 1.5rem;
+}
+
+.alert {
+  font-size: 1.3rem;
+  padding: 1rem;
+  background-color: yellow;
+  color: darkslategrey;
+  border-radius: 1rem;
+  border: yellow;
+  box-shadow: 0px 3px 5px lightgrey;
+  margin-bottom: 1.5rem;
+}
+
+button:hover {
+  transform: scale(1.02);
 }
 
 #specs {
   font-size: 0.8rem;
   margin-right: 0;
+}
+
+.out-of-stock {
+  color: grey;
 }
